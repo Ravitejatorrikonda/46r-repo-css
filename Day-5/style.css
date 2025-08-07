@@ -1,0 +1,55 @@
+.container {
+    height: 600px;
+    border: 2px solid red
+}
+
+.child-1 {
+    height: 300px;
+    border: 2px solid blue;
+}
+
+.sub-child-1 {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: 2px solid yellowgreen;
+    position: relative;
+}
+
+.sub-child-2 {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid yellowgreen;
+}
+
+.sub-child-3 {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+
+    position: relative;
+    border: 2px solid yellowgreen;
+}
+
+.sub-child-4 {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid yellowgreen;
+}
+
+img {
+    width: 100%;
+}
+
+h3 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    margin: 0px;
+}
