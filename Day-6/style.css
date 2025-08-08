@@ -1,0 +1,37 @@
+.container{
+    border: 2px solid red;
+    height: 700px;
+      display: flex;
+      /* flex-direction: column-reverse; */
+      /* justify-content: center; */
+      /* gap: 20px; */
+      align-items: start;
+      /* align-content: start; */
+      /* flex-wrap: wrap; */
+      flex-flow: column wrap;
+}
+.item-1{
+    padding: 10px;
+    font-size: 40px;
+    background-color: lightblue;
+}
+.item-2{
+    padding: 10px;
+    font-size: 40px;
+    background-color: lightcoral;
+}
+.item-3{
+    padding: 10px;
+    font-size: 40px;
+    background-color: lightgreen;
+}
+.item-4{
+    padding: 10px;
+    font-size: 40px;
+    background-color: lightsalmon;
+}
+.item-5{
+    padding: 10px;
+    font-size: 40px;
+    background-color: lightslategray;
+}
