@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.container{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    background-color: lightcoral;
+    /* transform: translate(200px); */
+    transition: all 5s ease;
+}
+.container:hover{
+    /* transform: translate(100px,-100px); */
+    /* transform: scaleX(-2); */
+    /* transform: skew(60deg,60deg); */
+    /* transform: rotate(-360deg); */
+    transform: translateX(300px) skew(60deg);
+    /* transform: scale(2); */
+}
